@@ -4,7 +4,7 @@ var pets = ['cats','dogs','birds'];
 
 
 function addElementToBeginningOfArray(list,foo) {
-  return ['trains', ...list];
+  return ['foo', ...list];
 }
 
 function destructivelyAddElementToBeginningOfArray(pets,foo) {
@@ -14,8 +14,8 @@ function destructivelyAddElementToBeginningOfArray(pets,foo) {
 var names = ['Dan','Amber','Jelly'];
 var jobs = ['baker','clerk','janitor'];
 
-function addElementToEndOfArray(names,Isiah) {
-  return [...names,'Isiah'];
+function addElementToEndOfArray(names,foo) {
+  return [...names,'foo'];
 }
 
 function destructivelyAddElementToEndOfArray(jobs,foo) {
