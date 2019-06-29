@@ -8,7 +8,8 @@ function addElementToBeginningOfArray(list,foo) {
 }
 
 function destructivelyAddElementToBeginningOfArray(pets,foo) {
-  return pets.unshift('foo');
+  pets.unshift('foo');
+  return pets;
 }
 
 var names = ['Dan','Amber','Jelly'];
