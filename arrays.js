@@ -3,7 +3,7 @@ var list = ['cars','boats','planes'];
 var pets = ['cats','dogs','birds'];
 
 
-function addElementToBeginningOfArray(list,trains) {
+function addElementToBeginningOfArray(list,foo) {
   return ['trains', ...list];
 }
 
