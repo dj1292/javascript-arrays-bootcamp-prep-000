@@ -20,7 +20,8 @@ function addElementToEndOfArray(names,foo) {
 }
 
 function destructivelyAddElementToEndOfArray(jobs,foo) {
-  return jobs.push('foo');
+   jobs.push('foo');
+   return jobs;
 }
 
 var sounds = ['vroom','skrrt'];
