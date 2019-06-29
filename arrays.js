@@ -41,3 +41,5 @@ function removeElementFromBeginningOfArray(people) {
 function destructivelyRemoveElementFromEndOfArray(people) {
   return people.pop();
 }
+
+function 
