@@ -33,3 +33,5 @@ var people = ['Stan','Cliff','Hank'];
 function destructivelyRemoveElementFromBeginningOfArray(people) {
   return people.shift();
 }
+
+function 
