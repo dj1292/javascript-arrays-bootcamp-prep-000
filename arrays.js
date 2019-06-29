@@ -18,8 +18,8 @@ function addElementToEndOfArray(names,Isiah) {
   return [...names,'Isiah'];
 }
 
-function destructivelyAddElementToEndOfArray(jobs,mailman) {
-  return jobs.push('mailman');
+function destructivelyAddElementToEndOfArray(jobs,foo) {
+  return jobs.push('foo');
 }
 
 var sounds = ['vroom','skrrt'];
