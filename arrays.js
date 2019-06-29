@@ -28,4 +28,8 @@ function accessElementInArray(sounds,i) {
   return sounds[i];
 }
 
-function 
+var people = ['Stan','Cliff','Hank'];
+
+function destructivelyRemoveElementFromBeginningOfArray(people) {
+  return people.shift();
+}
