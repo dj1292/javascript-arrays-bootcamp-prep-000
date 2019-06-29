@@ -38,4 +38,6 @@ function removeElementFromBeginningOfArray(people) {
   return people.slice(1);
 }
 
-function
+function destructivelyRemoveElementFromEndOfArray(people) {
+  return people.pop();
+}
