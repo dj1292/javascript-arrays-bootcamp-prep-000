@@ -24,6 +24,6 @@ function destructivelyAddElementToEndOfArray(jobs,foo) {
 
 var sounds = ['vroom','skrrt'];
 
-function accessElementInArray(sounds) {
-  return sounds[1];
+function accessElementInArray(sounds,i) {
+  return sounds[i];
 }
