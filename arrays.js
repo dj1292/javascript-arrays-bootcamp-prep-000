@@ -31,7 +31,8 @@ function accessElementInArray(sounds,i) {
 var people = ['Stan','Cliff','Hank'];
 
 function destructivelyRemoveElementFromBeginningOfArray(people) {
-  return people.shift();
+   people.shift();
+   return people;
 }
 
 function removeElementFromBeginningOfArray(people) {
